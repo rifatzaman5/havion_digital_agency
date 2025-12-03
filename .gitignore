@@ -1,16 +1,8 @@
-# Images
-assets/images/
-*.jpg
-*.jpeg
-*.png
-*.gif
-*.webp
-
-# Videos
-assets/videos/
-*.mp4
-*.webm
-*.avi
+# Videos (optional - uncomment to ignore)
+# assets/videos/
+# *.mp4
+# *.webm
+# *.avi
 
 # Dependencies
 node_modules/
