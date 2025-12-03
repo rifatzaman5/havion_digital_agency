@@ -1,0 +1,44 @@
+# Images
+assets/images/
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.webp
+
+# Videos
+assets/videos/
+*.mp4
+*.webm
+*.avi
+
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment
+.env
+.env.local

@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blogs-detail</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/assets/images/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/assets/images/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/assets/images/favicon-16x16.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="/assets/images/android-chrome-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="512x512"
+      href="/assets/images/android-chrome-512x512.png"
+    />
+    <link rel="manifest" href="/assets/images/site.webmanifest" />
+    <link rel="shortcut icon" href="/assets/images/favicon.ico" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Inter font - all weights -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Poppins font - all weights -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bricolage Grotesque font - all weights -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Roboto font - all weights -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Istok Web font - all available weights -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Istok+Web:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Kumbh Sans font - all weights -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- bottom-to-top -->
+    <button id="back-to-top" title="Back to Top">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+    <!-- Main Container -->
+
+    <div class="container-fluid px-0">
+      <!-- Navigation Bar - Fixed Top -->
+      <nav class="navbar navbar-expand-lg fixed-top effect-fade-delay">
+        <div class="container-fluid">
+          <!-- Logo -->
+          <a class="navbar-brand effect-slide-right" href="#">
+            <img src="/assets/images/website-logo.svg" alt="Company Logo" />
+          </a>
+
+          <!-- Toggle Button for Mobile -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarContent"
+            aria-controls="navbarContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Navbar Links -->
+          <div
+            class="collapse navbar-collapse effect-slide-up"
+            id="navbarContent"
+          >
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown1"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Menu Text <i class="fa-solid fa-chevron-down ms-1 fa-xs"></i>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                  <li><a class="dropdown-item" href="#">Option 1</a></li>
+                  <li><a class="dropdown-item" href="#">Option 2</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li><a class="dropdown-item" href="#">Option 3</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown2"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Menu Text <i class="fa-solid fa-chevron-down ms-1 fa-xs"></i>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                  <li><a class="dropdown-item" href="#">Option 1</a></li>
+                  <li><a class="dropdown-item" href="#">Option 2</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li><a class="dropdown-item" href="#">Option 3</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown3"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Menu Text <i class="fa-solid fa-chevron-down ms-1 fa-xs"></i>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown3">
+                  <li><a class="dropdown-item" href="#">Option 1</a></li>
+                  <li><a class="dropdown-item" href="#">Option 2</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li><a class="dropdown-item" href="#">Option 3</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown4"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Menu Text <i class="fa-solid fa-chevron-down ms-1 fa-xs"></i>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown4">
+                  <li><a class="dropdown-item" href="#">Option 1</a></li>
+                  <li><a class="dropdown-item" href="#">Option 2</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li><a class="dropdown-item" href="#">Option 3</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link pricing" href="#">Pricing</a>
+              </li>
+            </ul>
+
+            <!-- Auth Buttons -->
+            <div class="buttons-group">
+              <button class="btn-login hover-lift">Log In</button>
+              <button class="btn-signup hover-lift">
+                Sign Up Free
+                <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <section class="blog-detail-section">
+        <div class="container">
+          <!-- Blog Navigation and Search -->
+          <section class="blog-detail-context mb-5">
+            <div class="row justify-content-between align-items-end">
+              <div class="col-md-8">
+                <h3 class="mb-4 blog-main-title effect-slide-up">
+                  Blog Context
+                </h3>
+                <nav>
+                  <ul class="nav" id="blog-detail-tabs" role="tablist">
+                    <li class="nav-item me-4">
+                      <a
+                        class="nav-link blog-tab active effect-fade-delay"
+                        id="payment-terms-tab"
+                        data-bs-toggle="tab"
+                        data-bs-target="#payment-terms"
+                        role="tab"
+                        aria-controls="payment-terms"
+                        aria-selected="true"
+                        >Payment Terms</a
+                      >
+                    </li>
+                    <li class="nav-item me-4">
+                      <a
+                        class="nav-link blog-tab effect-fade-delay"
+                        id="user-responsibilities-tab"
+                        data-bs-toggle="tab"
+                        data-bs-target="#user-responsibilities"
+                        role="tab"
+                        aria-controls="user-responsibilities"
+                        aria-selected="false"
+                        >User Responsibilities</a
+                      >
+                    </li>
+                    <li class="nav-item me-4">
+                      <a
+                        class="nav-link blog-tab effect-fade-delay"
+                        id="introduction-tab"
+                        data-bs-toggle="tab"
+                        data-bs-target="#introduction"
+                        role="tab"
+                        aria-controls="introduction"
+                        aria-selected="false"
+                        >Introduction</a
+                      >
+                    </li>
+                    <li class="nav-item me-4">
+                      <a
+                        class="nav-link blog-tab effect-fade-delay"
+                        id="disclaimers-tab"
+                        data-bs-toggle="tab"
+                        data-bs-target="#disclaimers"
+                        role="tab"
+                        aria-controls="disclaimers"
+                        aria-selected="false"
+                        >Disclaimers</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="nav-link blog-tab effect-fade-delay"
+                        id="governing-law-tab"
+                        data-bs-toggle="tab"
+                        data-bs-target="#governing-law"
+                        role="tab"
+                        aria-controls="governing-law"
+                        aria-selected="false"
+                        >Governing Law</a
+                      >
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+
+              <div class="col-md-4">
+                <div
+                  class="blog-detail-search d-flex align-items-center gap-2 effect-fade-zoom"
+                >
+                  <button type="button" class="btn p-0 border-0">
+                    <i class="fas fa-search" aria-hidden="true"></i>
+                  </button>
+                  <input
+                    type="text"
+                    placeholder="Search"
+                    aria-label="Search"
+                    id="blog-search-input"
+                    class="border-0 w-100"
+                  />
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Blog Content Sections -->
+          <div class="tab-content">
+            <!-- Payment Terms Tab Content -->
+            <div
+              id="payment-terms"
+              class="tab-pane fade show active"
+              role="tabpanel"
+              aria-labelledby="payment-terms-tab"
+            >
+              <!-- Featured Blog Post -->
+              <article class="blog-detail-featured mb-5 effect-slide-up">
+                <div
+                  class="blog-detail-hero"
+                  style="
+                    background-image: url('/assets/images/blog-detail1.svg');
+                  "
+                ></div>
+                <div class="row">
+                  <div class="col-lg-9">
+                    <h1 class="blog-detail-title effect-slide-up">
+                      UX review presentations
+                    </h1>
+                    <p class="blog-detail-subtitle effect-fade-delay">
+                      How do you create compelling presentations that wow your
+                      colleagues and impress your managers?
+                    </p>
+                  </div>
+                  <div class="col-lg-3 text-lg-end">
+                    <p class="blog-detail-author effect-fade-zoom">
+                      Olivia Rhye • 20 Jan 2024
+                    </p>
+                  </div>
+                </div>
+              </article>
+
+              <!-- Blog Content -->
+              <div class="blog-detail-content container">
+                <div class="row justify-content-center">
+                  <div class="col-lg-10">
+                    <section class="mb-5">
+                      <h2 class="effect-slide-up">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua.
+                      </h2>
+                      <p class="effect-fade-delay">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua...
+                      </p>
+                      <p class="effect-fade-delay">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua...
+                      </p>
+                      <p class="effect-fade-delay">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua...
+                      </p>
+                    </section>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Latest Blogs Section -->
+              <!-- Latest Blogs Section -->
+              <section class="blog-detail-latest mt-5">
+                <h2 class="blog-detail-latest-title">Latest Blogs</h2>
+                <div class="blog-detail-latest-container">
+                  <div class="blog-detail-latest-row">
+                    <!-- First set of cards -->
+                    <div class="blog-detail-latest-item">
+                      <article class="blog-detail-card d-flex mb-4">
+                        <img
+                          class="blog-detail-card-img"
+                          src="/assets/images/blog-detail2.svg"
+                          alt="Blog thumbnail"
+                        />
+                        <div class="p-3">
+                          <p class="blog-detail-author mb-2">
+                            Phoenix Baker • 19 Jan 2024
+                          </p>
+                          <h3 class="blog-detail-card-heading mb-2">
+                            <a href="#">Heading 1</a>
+                          </h3>
+                          <p class="blog-detail-card-text">
+                            Linear helps streamline software projects, sprints,
+                            tasks, and bug tracking. Here's how to get started.
+                          </p>
+                        </div>
+                      </article>
+                    </div>
+                    <div class="blog-detail-latest-item">
+                      <article class="blog-detail-card d-flex mb-4">
+                        <img
+                          class="blog-detail-card-img"
+                          src="/assets/images/blog-detail2.svg"
+                          alt="Blog thumbnail"
+                        />
+                        <div class="p-3">
+                          <p class="blog-detail-author mb-2">
+                            Phoenix Baker • 19 Jan 2024
+                          </p>
+                          <h3 class="blog-detail-card-heading mb-2">
+                            <a href="#">Heading 2</a>
+                          </h3>
+                          <p class="blog-detail-card-text">
+                            Linear helps streamline software projects, sprints,
+                            tasks, and bug tracking. Here's how to get started.
+                          </p>
+                        </div>
+                      </article>
+                    </div>
+                    <div class="blog-detail-latest-item">
+                      <article class="blog-detail-card d-flex mb-4">
+                        <img
+                          class="blog-detail-card-img"
+                          src="/assets/images/blog-detail2.svg"
+                          alt="Blog thumbnail"
+                        />
+                        <div class="p-3">
+                          <p class="blog-detail-author mb-2">
+                            Phoenix Baker • 19 Jan 2024
+                          </p>
+                          <h3 class="blog-detail-card-heading mb-2">
+                            <a href="#">Heading 3</a>
+                          </h3>
+                          <p class="blog-detail-card-text">
+                            Linear helps streamline software projects, sprints,
+                            tasks, and bug tracking. Here's how to get started.
+                          </p>
+                        </div>
+                      </article>
+                    </div>
+                    <div class="blog-detail-latest-item">
+                      <article class="blog-detail-card d-flex mb-4">
+                        <img
+                          class="blog-detail-card-img"
+                          src="/assets/images/blog-detail2.svg"
+                          alt="Blog thumbnail"
+                        />
+                        <div class="p-3">
+                          <p class="blog-detail-author mb-2">
+                            Phoenix Baker • 19 Jan 2024
+                          </p>
+                          <h3 class="blog-detail-card-heading mb-2">
+                            <a href="#">Heading 4</a>
+                          </h3>
+                          <p class="blog-detail-card-text">
+                            Linear helps streamline software projects, sprints,
+                            tasks, and bug tracking. Here's how to get started.
+                          </p>
+                        </div>
+                      </article>
+                    </div>
+                    <div class="blog-detail-latest-item">
+                      <article class="blog-detail-card d-flex mb-4">
+                        <img
+                          class="blog-detail-card-img"
+                          src="/assets/images/blog-detail2.svg"
+                          alt="Blog thumbnail"
+                        />
+                        <div class="p-3">
+                          <p class="blog-detail-author mb-2">
+                            Phoenix Baker • 19 Jan 2024
+                          </p>
+                          <h3 class="blog-detail-card-heading mb-2">
+                            <a href="#">Heading 5</a>
+                          </h3>
+                          <p class="blog-detail-card-text">
+                            Linear helps streamline software projects, sprints,
+                            tasks, and bug tracking. Here's how to get started.
+                          </p>
+                        </div>
+                      </article>
+                    </div>
+
+                    <!-- Duplicate cards for seamless looping -->
+                    <div class="blog-detail-latest-item">
+                      <article class="blog-detail-card d-flex mb-4">
+                        <img
+                          class="blog-detail-card-img"
+                          src="/assets/images/blog-detail2.svg"
+                          alt="Blog thumbnail"
+                        />
+                        <div class="p-3">
+                          <p class="blog-detail-author mb-2">
+                            Phoenix Baker • 19 Jan 2024
+                          </p>
+                          <h3 class="blog-detail-card-heading mb-2">
+                            <a href="#">Heading 1</a>
+                          </h3>
+                          <p class="blog-detail-card-text">
+                            Linear helps streamline software projects, sprints,
+                            tasks, and bug tracking. Here's how to get started.
+                          </p>
+                        </div>
+                      </article>
+                    </div>
+                    <div class="blog-detail-latest-item">
+                      <article class="blog-detail-card d-flex mb-4">
+                        <img
+                          class="blog-detail-card-img"
+                          src="/assets/images/blog-detail2.svg"
+                          alt="Blog thumbnail"
+                        />
+                        <div class="p-3">
+                          <p class="blog-detail-author mb-2">
+                            Phoenix Baker • 19 Jan 2024
+                          </p>
+                          <h3 class="blog-detail-card-heading mb-2">
+                            <a href="#">Heading 2</a>
+                          </h3>
+                          <p class="blog-detail-card-text">
+                            Linear helps streamline software projects, sprints,
+                            tasks, and bug tracking. Here's how to get started.
+                          </p>
+                        </div>
+                      </article>
+                    </div>
+                    <div class="blog-detail-latest-item">
+                      <article class="blog-detail-card d-flex mb-4">
+                        <img
+                          class="blog-detail-card-img"
+                          src="/assets/images/blog-detail2.svg"
+                          alt="Blog thumbnail"
+                        />
+                        <div class="p-3">
+                          <p class="blog-detail-author mb-2">
+                            Phoenix Baker • 19 Jan 2024
+                          </p>
+                          <h3 class="blog-detail-card-heading mb-2">
+                            <a href="#">Heading 3</a>
+                          </h3>
+                          <p class="blog-detail-card-text">
+                            Linear helps streamline software projects, sprints,
+                            tasks, and bug tracking. Here's how to get started.
+                          </p>
+                        </div>
+                      </article>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+
+            <!-- Other Tab Contents -->
+            <div
+              id="user-responsibilities"
+              class="tab-pane fade"
+              role="tabpanel"
+              aria-labelledby="user-responsibilities-tab"
+            >
+              <div class="text-center py-5">
+                <h2 class="effect-slide-up">User Responsibilities Content</h2>
+                <p class="effect-fade-delay">
+                  This tab will contain user responsibilities information
+                </p>
+              </div>
+            </div>
+
+            <div
+              id="introduction"
+              class="tab-pane fade"
+              role="tabpanel"
+              aria-labelledby="introduction-tab"
+            >
+              <div class="text-center py-5">
+                <h2 class="effect-slide-up">Introduction Content</h2>
+                <p class="effect-fade-delay">
+                  This tab will contain introduction information
+                </p>
+              </div>
+            </div>
+
+            <div
+              id="disclaimers"
+              class="tab-pane fade"
+              role="tabpanel"
+              aria-labelledby="disclaimers-tab"
+            >
+              <div class="text-center py-5">
+                <h2 class="effect-slide-up">Disclaimers Content</h2>
+                <p class="effect-fade-delay">
+                  This tab will contain disclaimers information
+                </p>
+              </div>
+            </div>
+
+            <div
+              id="governing-law"
+              class="tab-pane fade"
+              role="tabpanel"
+              aria-labelledby="governing-law-tab"
+            >
+              <div class="text-center py-5">
+                <h2 class="effect-slide-up">Governing Law Content</h2>
+                <p class="effect-fade-delay">
+                  This tab will contain governing law information
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="havica-footer effect-fade-up">
+        <div class="container">
+          <!-- Services Section -->
+          <div class="row text-center mb-md-5">
+            <div class="col-md-4 havica-footer-service effect-slide-left">
+              <img
+                src="/assets/images/top-right.svg"
+                alt="Service Icon"
+                class="havica-footer-service-icon"
+              />
+              <h3 class="havica-footer-heading mb-3">Heading</h3>
+              <p class="havica-footer-text">
+                Lorem ipsum dolor sit amet, consectetur<br />adipiscing elit.
+                Vivamus non enim lacus.
+              </p>
+            </div>
+            <div class="col-md-4 havica-footer-service effect-fade-delay">
+              <img
+                src="/assets/images/footer-center.svg"
+                alt="Service Icon"
+                class="havica-footer-service-icon"
+              />
+              <h3 class="havica-footer-heading mb-3">Heading</h3>
+              <p class="havica-footer-text">
+                Lorem ipsum dolor sit amet, consectetur<br />adipiscing elit.
+                Vivamus non enim lacus.
+              </p>
+            </div>
+            <div class="col-md-4 havica-footer-service effect-slide-right">
+              <img
+                src="/assets/images/left-bottom.svg"
+                alt="Service Icon"
+                class="havica-footer-service-icon"
+              />
+              <h3 class="havica-footer-heading mb-3">Heading</h3>
+              <p class="havica-footer-text">
+                Lorem ipsum dolor sit amet, consectetur<br />adipiscing elit.
+                Vivamus non enim lacus.
+              </p>
+            </div>
+          </div>
+
+          <!-- Divider -->
+          <div
+            class="d-flex align-items-center justify-content-center effect-fade-up"
+          >
+            <div class="havica-footer-divider flex-grow-1"></div>
+            <div class="havica-footer-divider-dot"></div>
+            <div class="havica-footer-divider flex-grow-1"></div>
+          </div>
+
+          <!-- Newsletter Section -->
+          <div class="row align-items-center my-5">
+            <div class="col-lg-6 effect-slide-left">
+              <h3 class="havica-footer-heading mb-2">
+                Subscribe to our newsletter for updates:
+              </h3>
+              <p class="havica-footer-text" style="font-size: 14px">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+            </div>
+            <div class="col-lg-6 effect-slide-right">
+              <p class="havica-footer-subtitle mb-2">
+                30 Day Free Trial No Credit Card Required:
+              </p>
+              <form class="havica-footer-form">
+                <input
+                  type="email"
+                  class="havica-footer-input"
+                  placeholder="Enter your email"
+                  required
+                />
+                <button type="submit" class="havica-footer-button">Send</button>
+              </form>
+            </div>
+          </div>
+
+          <!-- Divider -->
+          <div
+            class="d-flex align-items-center justify-content-center effect-fade-up"
+          >
+            <div class="havica-footer-divider flex-grow-1"></div>
+            <div class="havica-footer-divider-dot"></div>
+            <div class="havica-footer-divider flex-grow-1"></div>
+          </div>
+
+          <!-- Footer Links -->
+          <div class="row mt-5 for-mobile-setting">
+            <div class="col-lg-3 col-6 mb-4 mb-lg-0 effect-fade-up">
+              <a href="#" class="mb-4 d-inline-block">
+                <img
+                  src="/assets/images/website-logo.svg"
+                  alt="Logo"
+                  class="img-fluid"
+                />
+              </a>
+              <div class="mb-3">
+                <a href="#" class="havica-footer-social-icon"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+                <a href="#" class="havica-footer-social-icon"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+                <a href="#" class="havica-footer-social-icon"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+                <a href="#" class="havica-footer-social-icon"
+                  ><i class="fab fa-youtube"></i
+                ></a>
+              </div>
+              <p class="havica-footer-text">
+                Lorem ipsum dolor sit amet, consectetur<br />adipiscing elit.
+                Etiam vehicula.
+              </p>
+            </div>
+
+            <div class="col-lg-3 col-6 mb-lg-0 effect-fade-delay">
+              <h4 class="havica-footer-subtitle mb-3">Pages</h4>
+              <ul class="list-unstyled animate-stagger-children">
+                <li><a href="#" class="havica-footer-link">Home</a></li>
+                <li><a href="#" class="havica-footer-link">About</a></li>
+                <li><a href="#" class="havica-footer-link">Pricing</a></li>
+                <li><a href="#" class="havica-footer-link">Contact</a></li>
+              </ul>
+            </div>
+
+            <div class="col-lg-3 col-6 mb-lg-0 effect-fade-delay">
+              <h4 class="havica-footer-subtitle mb-3">Solutions</h4>
+              <ul class="list-unstyled animate-stagger-children">
+                <li>
+                  <a href="#" class="havica-footer-link">Startup Support</a>
+                </li>
+                <li>
+                  <a href="#" class="havica-footer-link"
+                    >Growth AI <span class="havica-footer-badge">New</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="havica-footer-link">Business Support</a>
+                </li>
+                <li><a href="#" class="havica-footer-link">Shipping</a></li>
+              </ul>
+            </div>
+
+            <div class="col-lg-3 col-6 effect-fade-delay">
+              <h4 class="havica-footer-subtitle mb-3">Resources</h4>
+              <ul class="list-unstyled animate-stagger-children">
+                <li><a href="#" class="havica-footer-link">Blog</a></li>
+                <li><a href="#" class="havica-footer-link">Community</a></li>
+                <li><a href="#" class="havica-footer-link">Tutorials</a></li>
+                <li>
+                  <a href="#" class="havica-footer-link"
+                    >Monitoring <span class="havica-footer-badge">New</span></a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

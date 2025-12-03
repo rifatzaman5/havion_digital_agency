@@ -1,0 +1,2327 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hivion</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/assets/images/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/assets/images/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/assets/images/favicon-16x16.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="/assets/images/android-chrome-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="512x512"
+      href="/assets/images/android-chrome-512x512.png"
+    />
+    <link rel="manifest" href="/assets/images/site.webmanifest" />
+    <link rel="shortcut icon" href="/assets/images/favicon.ico" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Inter font - all weights -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Poppins font - all weights -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bricolage Grotesque font - all weights -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Roboto font - all weights -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Istok Web font - all available weights -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Istok+Web:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Kumbh Sans font - all weights -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- bottom-to-top -->
+    <button id="back-to-top" title="Back to Top">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+    <!-- Main Container -->
+
+    <div class="container-fluid px-0">
+      <!-- Navigation Bar - Fixed Top -->
+      <nav class="navbar navbar-expand-lg fixed-top effect-fade-delay">
+        <div class="container-fluid">
+          <!-- Logo -->
+          <a class="navbar-brand effect-slide-right" href="#">
+            <img src="/assets/images/website-logo.svg" alt="Company Logo" />
+          </a>
+      
+          <!-- Toggle Button for Mobile -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarContent"
+            aria-controls="navbarContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <!-- Navbar Links -->
+          <div class="collapse navbar-collapse effect-slide-up" id="navbarContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown1"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Menu Text <i class="fa-solid fa-chevron-down ms-1 fa-xs"></i>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                  <li><a class="dropdown-item" href="#">Option 1</a></li>
+                  <li><a class="dropdown-item" href="#">Option 2</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li><a class="dropdown-item" href="#">Option 3</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown2"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Menu Text <i class="fa-solid fa-chevron-down ms-1 fa-xs"></i>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                  <li><a class="dropdown-item" href="#">Option 1</a></li>
+                  <li><a class="dropdown-item" href="#">Option 2</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li><a class="dropdown-item" href="#">Option 3</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown3"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Menu Text <i class="fa-solid fa-chevron-down ms-1 fa-xs"></i>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown3">
+                  <li><a class="dropdown-item" href="#">Option 1</a></li>
+                  <li><a class="dropdown-item" href="#">Option 2</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li><a class="dropdown-item" href="#">Option 3</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown4"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Menu Text <i class="fa-solid fa-chevron-down ms-1 fa-xs"></i>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown4">
+                  <li><a class="dropdown-item" href="#">Option 1</a></li>
+                  <li><a class="dropdown-item" href="#">Option 2</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li><a class="dropdown-item" href="#">Option 3</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link pricing" href="#">Pricing</a>
+              </li>
+            </ul>
+      
+            <!-- Auth Buttons -->
+            <div class="buttons-group">
+              <button class="btn-login hover-lift">Log In</button>
+              <button class="btn-signup hover-lift">
+                Sign Up Free
+                <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- hero -->
+      <section class="hero-main-section">
+        <div class="container position-relative h-100">
+          <div class="row h-100">
+            <div class="col-lg-6">
+              <div class="hero-main-section-content effect-slide-left">
+                <div class="hero-main-section-wrapper">
+                  <div class="hero-main-section-text-container">
+                    <h1 class="hero-main-section-heading effect-fade-zoom">
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                    </h1>
+                    <p class="hero-main-section-paragraph effect-pop-bottom">
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                    </p>
+                  </div>
+                  <a
+                    href="#"
+                    class="hero-main-section-button effect-pop-bottom"
+                  >
+                    Sign up <i class="fa-solid fa-chevron-right ms-1"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="hero-main-section-right">
+                <div class="hero-main-section-circle-main">
+                  <img
+                    src="/assets/images/main-right.svg"
+                    alt="Hero Image"
+                    class="hero-main-section-main-image"
+                  />
+                </div>
+                <div class="hero-main-section-circle-yellow"></div>
+                <div class="hero-main-section-circle-purple"></div>
+                <img
+                  src="/assets/images/clip-path.svg"
+                  alt="Path Image"
+                  class="hero-main-section-path-img"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hero-main-section-background">
+          <div class="hero-main-section-bg-container">
+            <img
+              src="/assets/images/hero-bg.svg"
+              alt="Gradient Background"
+              class="hero-main-section-gradient"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="main-page-feature-section position-relative">
+        <img
+          src="/assets/images/Ellipse 12 (1).svg"
+          class="ellipse-background ellipse-center-top-main"
+          alt=""
+        />
+        <div class="container">
+          <!-- Header Section -->
+          <div class="main-page-feature-context effect-slide-up">
+            <div class="row justify-content-center text-center">
+              <div class="col-lg-12">
+                <div class="havica-industries-tag effect-fade-delay">
+                  Features
+                </div>
+                <h2 class="havica-industries-heading mb-0 effect-fade-zoom">
+                  Lorem ipsum dolor sit amet,consectetuer <br />
+                  adipiscing elit.
+                </h2>
+              </div>
+            </div>
+            <a href="#" class="main-page-feature-button effect-pop-bottom">
+              <span class="main-page-button-text">View All Features</span>
+              <i class="fas fa-chevron-right"></i>
+            </a>
+          </div>
+
+          <!-- Carousel Section -->
+          <div class="main-page-carousel-section effect-slide-up">
+            <div class="col-lg-4">
+              <div class="main-page-carousel-content">
+                <h2 class="main-page-content-heading effect-fade-zoom">
+                  Heading
+                </h2>
+                <p class="main-page-content-text effect-fade-delay">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                  Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+                  natoque penatibus et magnis dis parturient montes, nascetur
+                  ridiculus mus. Donec quam felis, ultricies nec, pellentesque
+                  eu, pretium quis, sem.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-8">
+              <div class="main-page-carousel-wrapper">
+                <div class="main-page-card-slider" id="cardSlider">
+                  <!-- Card 0 -->
+                  <div
+                    class="main-page-card main-page-card-side effect-card-fade"
+                    data-index="0"
+                  >
+                    <img
+                      src="/assets/images/feature-card.svg"
+                      class="main-page-card-img-top"
+                      alt="Card image"
+                    />
+                    <div class="main-page-card-body">
+                      <h5 class="main-page-card-title">Heading</h5>
+                      <p class="main-page-card-text">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing
+                        elit. Aenean commodo ligula eget dolor. Aenean massa.
+                      </p>
+                    </div>
+                  </div>
+
+                  <!-- Card 1 (Active) -->
+                  <div
+                    class="main-page-card main-page-card-center main-page-card-active effect-card-fade"
+                    data-index="1"
+                  >
+                    <img
+                      src="/assets/images/feature-card.svg"
+                      class="main-page-card-img-top"
+                      alt="Card image"
+                    />
+                    <div class="main-page-card-body">
+                      <h5 class="main-page-card-title">Heading</h5>
+                      <p class="main-page-card-text">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing
+                        elit. Aenean commodo ligula eget dolor. Aenean massa.
+                      </p>
+                    </div>
+                  </div>
+
+                  <!-- Card 2 -->
+                  <div
+                    class="main-page-card main-page-card-side effect-card-fade"
+                    data-index="2"
+                  >
+                    <img
+                      src="/assets/images/feature-card.svg"
+                      class="main-page-card-img-top"
+                      alt="Card image"
+                    />
+                    <div class="main-page-card-body">
+                      <h5 class="main-page-card-title">Heading</h5>
+                      <p class="main-page-card-text">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing
+                        elit. Aenean commodo ligula eget dolor. Aenean massa.
+                      </p>
+                    </div>
+                  </div>
+
+                  <!-- Card 3 -->
+                  <div
+                    class="main-page-card main-page-card-side effect-card-fade"
+                    data-index="3"
+                  >
+                    <img
+                      src="/assets/images/feature-card.svg"
+                      class="main-page-card-img-top"
+                      alt="Card image"
+                    />
+                    <div class="main-page-card-body">
+                      <h5 class="main-page-card-title">Heading</h5>
+                      <p class="main-page-card-text">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing
+                        elit. Aenean commodo ligula eget dolor. Aenean massa.
+                      </p>
+                    </div>
+                  </div>
+
+                  <!-- Card 4 -->
+                  <div
+                    class="main-page-card main-page-card-side effect-card-fade"
+                    data-index="4"
+                  >
+                    <img
+                      src="/assets/images/feature-card.svg"
+                      class="main-page-card-img-top"
+                      alt="Card image"
+                    />
+                    <div class="main-page-card-body">
+                      <h5 class="main-page-card-title">Heading</h5>
+                      <p class="main-page-card-text">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing
+                        elit. Aenean commodo ligula eget dolor. Aenean massa.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <button
+                  class="main-page-carousel-control main-page-carousel-control-prev"
+                  id="prevBtn"
+                >
+                  <i class="fas fa-chevron-left main-page-control-icon"></i>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="main-page-carousel-control main-page-carousel-control-next"
+                  id="nextBtn"
+                >
+                  <i class="fas fa-chevron-right main-page-control-icon"></i>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="home-page-steps-section position-relative">
+        <img
+          src="/assets/images/video-elipses.svg"
+          class="ellipse-background ellipse-center-right"
+          alt=""
+        />
+        <img
+          src="/assets/images/Ellipse 12 (1).svg"
+          class="ellipse-background ellipse-center-left"
+          alt=""
+        />
+        <img
+          src="/assets/images/video-elipses.svg"
+          class="ellipse-background ellipse-center-last"
+          alt=""
+        />
+
+        <div class="container">
+          <div class="home-page-steps-context effect-slide-up">
+            <div class="row justify-content-center text-center">
+              <div class="col-lg-12">
+                <div class="havica-industries-tag effect-fade-zoom">
+                  Benefits
+                </div>
+                <h2 class="havica-industries-heading mb-0 effect-slide-up">
+                  Lorem ipsum dolor sit amet,consectetuer <br />
+                  adipiscing elit.
+                </h2>
+              </div>
+            </div>
+            <div class="home-page-steps-underline effect-pop-bottom">
+              <img
+                src="/assets/images/underline-header.svg"
+                alt="Decorative underline"
+              />
+            </div>
+          </div>
+
+          <div class="home-page-steps-container">
+            <article class="home-page-steps-card effect-card-fade">
+              <div class="row align-items-center">
+                <div class="col-lg-6 col-md-12">
+                  <div class="home-page-steps-content">
+                    <header class="home-page-steps-header">
+                      <h2 class="home-page-steps-title">Heading</h2>
+                      <h3 class="home-page-steps-subtitle">
+                        Lorem ipsum dolor sit amet
+                      </h3>
+                    </header>
+                    <ul class="home-page-steps-list animate-stagger-children">
+                      <li class="home-page-steps-list-item">
+                        <i class="fa-solid fa-check home-page-steps-check"></i>
+                        <span>
+                          Est et in pharetra magna adipiscing ornare aliquam.
+                        </span>
+                      </li>
+                      <li class="home-page-steps-list-item">
+                        <i class="fa-solid fa-check home-page-steps-check"></i>
+                        <span>
+                          Tellus arcu sed consequat ac velit ut eu blandit.
+                        </span>
+                      </li>
+                      <li class="home-page-steps-list-item">
+                        <i class="fa-solid fa-check home-page-steps-check"></i>
+                        <span>
+                          Ullamcorper ornare in et egestas dolor orci.
+                        </span>
+                      </li>
+                    </ul>
+                    <div>
+                      <a href="#" class="btn home-page-steps-button">
+                        View All Detail
+                        <i class="fa-solid fa-chevron-right"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-12 p-0">
+                  <div class="home-page-steps-image-wrapper effect-fade-delay">
+                    <img
+                      src="/assets/images/Picture-card-1.svg"
+                      alt="Feature image"
+                      class="home-page-steps-image"
+                    />
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <article class="home-page-steps-card effect-card-fade">
+              <div class="row align-items-center">
+                <div class="col-lg-6 col-md-12 order-lg-2">
+                  <div class="home-page-steps-content">
+                    <header class="home-page-steps-header">
+                      <h2 class="home-page-steps-title">Heading</h2>
+                      <h3 class="home-page-steps-subtitle">
+                        Lorem ipsum dolor sit amet
+                      </h3>
+                    </header>
+                    <ul class="home-page-steps-list animate-stagger-children">
+                      <li class="home-page-steps-list-item">
+                        <i class="fa-solid fa-check home-page-steps-check"></i>
+                        <span>
+                          Est et in pharetra magna adipiscing ornare aliquam.
+                        </span>
+                      </li>
+                      <li class="home-page-steps-list-item">
+                        <i class="fa-solid fa-check home-page-steps-check"></i>
+                        <span>
+                          Tellus arcu sed consequat ac velit ut eu blandit.
+                        </span>
+                      </li>
+                      <li class="home-page-steps-list-item">
+                        <i class="fa-solid fa-check home-page-steps-check"></i>
+                        <span>
+                          Ullamcorper ornare in et egestas dolor orci.
+                        </span>
+                      </li>
+                    </ul>
+                    <div>
+                      <a href="#" class="btn home-page-steps-button">
+                        View All Detail
+                        <i class="fa-solid fa-chevron-right"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-12 order-lg-1 p-0">
+                  <div class="home-page-steps-image-wrapper effect-fade-delay">
+                    <img
+                      src="/assets/images/Picture-card-2.svg"
+                      alt="Feature image"
+                      class="home-page-steps-image"
+                    />
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <article class="home-page-steps-card effect-card-fade">
+              <div class="row align-items-center">
+                <div class="col-lg-6 col-md-12">
+                  <div class="home-page-steps-content">
+                    <header class="home-page-steps-header">
+                      <h2 class="home-page-steps-title">Heading</h2>
+                      <h3 class="home-page-steps-subtitle">
+                        Lorem ipsum dolor sit amet
+                      </h3>
+                    </header>
+                    <ul class="home-page-steps-list animate-stagger-children">
+                      <li class="home-page-steps-list-item">
+                        <i class="fa-solid fa-check home-page-steps-check"></i>
+                        <span>
+                          Est et in pharetra magna adipiscing ornare aliquam.
+                        </span>
+                      </li>
+                      <li class="home-page-steps-list-item">
+                        <i class="fa-solid fa-check home-page-steps-check"></i>
+                        <span>
+                          Tellus arcu sed consequat ac velit ut eu blandit.
+                        </span>
+                      </li>
+                      <li class="home-page-steps-list-item">
+                        <i class="fa-solid fa-check home-page-steps-check"></i>
+                        <span>
+                          Ullamcorper ornare in et egestas dolor orci.
+                        </span>
+                      </li>
+                    </ul>
+                    <div>
+                      <a href="#" class="btn home-page-steps-button">
+                        View All Detail
+                        <i class="fa-solid fa-chevron-right"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-12 p-0">
+                  <div class="home-page-steps-image-wrapper effect-fade-delay">
+                    <img
+                      src="/assets/images/Picture-card-3.svg"
+                      alt="Feature image"
+                      class="home-page-steps-image"
+                    />
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="main-page-card-slider-section">
+        <div class="main-page-card-slider-bg-rectangle d-none d-md-block"></div>
+
+        <div class="container">
+          <div class="row justify-content-center text-center">
+            <div class="col-lg-12">
+              <div class="havica-industries-tag effect-fade-zoom">
+                Testimonials
+              </div>
+              <h2 class="havica-industries-heading mb-0 effect-slide-up">
+                Lorem ipsum dolor sit amet,consectetuer <br />
+                adipiscing elit.
+              </h2>
+            </div>
+          </div>
+
+          <div class="main-page-card-slider-carousel">
+            <!-- Desktop Carousel (4 cards per slide, visible on md and up) -->
+            <div
+              id="testimonialCarouselDesktop"
+              class="carousel slide d-none d-md-block"
+              data-bs-ride="carousel"
+              data-bs-interval="5000"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="main-page-card-slider-row">
+                    <!-- Card 1 -->
+                    <div class="main-page-card-slider-card position-relative">
+                      <span
+                        class="main-page-card-slider-badge main-page-card-slider-badge-gray"
+                        >Promoted</span
+                      >
+                      <img
+                        src="/assets/images/hivica-card1.svg"
+                        alt="Card image"
+                        class="main-page-card-slider-image"
+                      />
+                      <div class="main-page-card-slider-content">
+                        <div class="main-page-card-slider-user-card">
+                          <img
+                            src="/assets/images/User Thumb (1).svg"
+                            alt="User"
+                            class="main-page-card-slider-user-thumb"
+                          />
+                          <div class="main-page-card-slider-user-details">
+                            <p class="main-page-card-slider-title">
+                              Flower Decorations
+                            </p>
+                            <p class="main-page-card-slider-author">
+                              by Melvina Spring
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="main-page-card-slider-card position-relative">
+                      <span
+                        class="main-page-card-slider-badge main-page-card-slider-badge-purple"
+                        >Featured</span
+                      >
+                      <img
+                        src="/assets/images/hivica-card2.svg"
+                        alt="Card image"
+                        class="main-page-card-slider-image"
+                      />
+                      <div class="main-page-card-slider-content">
+                        <div class="main-page-card-slider-user-card">
+                          <img
+                            src="/assets/images/User Thumb (2).svg"
+                            alt="User"
+                            class="main-page-card-slider-user-thumb"
+                          />
+                          <div class="main-page-card-slider-user-details">
+                            <p class="main-page-card-slider-title">
+                              Flower Decorations
+                            </p>
+                            <p class="main-page-card-slider-author">
+                              by Melvina Spring
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="main-page-card-slider-card">
+                      <img
+                        src="/assets/images/hivica-card3.svg"
+                        alt="Card image"
+                        class="main-page-card-slider-image"
+                      />
+                      <div class="main-page-card-slider-content">
+                        <div class="main-page-card-slider-user-card">
+                          <img
+                            src="/assets/images/User Thumb (3).svg"
+                            alt="User"
+                            class="main-page-card-slider-user-thumb"
+                          />
+                          <div class="main-page-card-slider-user-details">
+                            <p class="main-page-card-slider-title">Splash</p>
+                            <p class="main-page-card-slider-author">
+                              by Rwanda Melflor
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Card 4 -->
+                    <div class="main-page-card-slider-card">
+                      <img
+                        src="/assets/images/hivica-card4.svg"
+                        alt="Card image"
+                        class="main-page-card-slider-image"
+                      />
+                      <div class="main-page-card-slider-content">
+                        <div class="main-page-card-slider-user-card">
+                          <img
+                            src="/assets/images/User Thumb.svg"
+                            alt="User"
+                            class="main-page-card-slider-user-thumb"
+                          />
+                          <div class="main-page-card-slider-user-details">
+                            <p class="main-page-card-slider-title">
+                              Colorful Face
+                            </p>
+                            <p class="main-page-card-slider-author">
+                              by Melvina Spring
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="main-page-card-slider-row">
+                    <!-- Card 5 -->
+                    <div class="main-page-card-slider-card">
+                      <img
+                        src="/assets/images/hivica-card1.svg"
+                        alt="Card image"
+                        class="main-page-card-slider-image"
+                      />
+                      <div class="main-page-card-slider-content">
+                        <div class="main-page-card-slider-user-card">
+                          <img
+                            src="/assets/images/User Thumb (1).svg"
+                            alt="User"
+                            class="main-page-card-slider-user-thumb"
+                          />
+                          <div class="main-page-card-slider-user-details">
+                            <p class="main-page-card-slider-title">
+                              Fence Spying
+                            </p>
+                            <p class="main-page-card-slider-author">
+                              by Melvina Spring
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Card 6 -->
+                    <div class="main-page-card-slider-card position-relative">
+                      <span
+                        class="main-page-card-slider-badge main-page-card-slider-badge-gray"
+                        >Promoted</span
+                      >
+                      <img
+                        src="/assets/images/hivica-card2.svg"
+                        alt="Card image"
+                        class="main-page-card-slider-image"
+                      />
+                      <div class="main-page-card-slider-content">
+                        <div class="main-page-card-slider-user-card">
+                          <img
+                            src="/assets/images/User Thumb (2).svg"
+                            alt="User"
+                            class="main-page-card-slider-user-thumb"
+                          />
+                          <div class="main-page-card-slider-user-details">
+                            <p class="main-page-card-slider-title">
+                              Nature View
+                            </p>
+                            <p class="main-page-card-slider-author">
+                              by John Smith
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Card 7 -->
+                    <div class="main-page-card-slider-card">
+                      <img
+                        src="/assets/images/hivica-card3.svg"
+                        alt="Card image"
+                        class="main-page-card-slider-image"
+                      />
+                      <div class="main-page-card-slider-content">
+                        <div class="main-page-card-slider-user-card">
+                          <img
+                            src="/assets/images/User Thumb (3).svg"
+                            alt="User"
+                            class="main-page-card-slider-user-thumb"
+                          />
+                          <div class="main-page-card-slider-user-details">
+                            <p class="main-page-card-slider-title">
+                              Mountain View
+                            </p>
+                            <p class="main-page-card-slider-author">
+                              by Emma Johnson
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Card 8 -->
+                    <div class="main-page-card-slider-card position-relative">
+                      <span
+                        class="main-page-card-slider-badge main-page-card-slider-badge-purple"
+                        >Featured</span
+                      >
+                      <img
+                        src="/assets/images/hivica-card4.svg"
+                        alt="Card image"
+                        class="main-page-card-slider-image"
+                      />
+                      <div class="main-page-card-slider-content">
+                        <div class="main-page-card-slider-user-card">
+                          <img
+                            src="/assets/images/User Thumb.svg"
+                            alt="User"
+                            class="main-page-card-slider-user-thumb"
+                          />
+                          <div class="main-page-card-slider-user-details">
+                            <p class="main-page-card-slider-title">
+                              Urban Scene
+                            </p>
+                            <p class="main-page-card-slider-author">
+                              by Thomas Parker
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="main-page-card-slider-row">
+                    <!-- Card 9 -->
+                    <div class="main-page-card-slider-card">
+                      <img
+                        src="/assets/images/hivica-card1.svg"
+                        alt="Card image"
+                        class="main-page-card-slider-image"
+                      />
+                      <div class="main-page-card-slider-content">
+                        <div class="main-page-card-slider-user-card">
+                          <img
+                            src="/assets/images/User Thumb (1).svg"
+                            alt="User"
+                            class="main-page-card-slider-user-thumb"
+                          />
+                          <div class="main-page-card-slider-user-details">
+                            <p class="main-page-card-slider-title">
+                              Ocean View
+                            </p>
+                            <p class="main-page-card-slider-author">
+                              by Sophia Davies
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Card 10 -->
+                    <div class="main-page-card-slider-card">
+                      <img
+                        src="/assets/images/hivica-card2.svg"
+                        alt="Card image"
+                        class="main-page-card-slider-image"
+                      />
+                      <div class="main-page-card-slider-content">
+                        <div class="main-page-card-slider-user-card">
+                          <img
+                            src="/assets/images/User Thumb (2).svg"
+                            alt="User"
+                            class="main-page-card-slider-user-thumb"
+                          />
+                          <div class="main-page-card-slider-user-details">
+                            <p class="main-page-card-slider-title">
+                              Desert Sunset
+                            </p>
+                            <p class="main-page-card-slider-author">
+                              by Alex Rodriguez
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Card 11 -->
+                    <div class="main-page-card-slider-card position-relative">
+                      <span
+                        class="main-page-card-slider-badge main-page-card-slider-badge-gray"
+                        >Promoted</span
+                      >
+                      <img
+                        src="/assets/images/hivica-card3.svg"
+                        alt="Card image"
+                        class="main-page-card-slider-image"
+                      />
+                      <div class="main-page-card-slider-content">
+                        <div class="main-page-card-slider-user-card">
+                          <img
+                            src="/assets/images/User Thumb (3).svg"
+                            alt="User"
+                            class="main-page-card-slider-user-thumb"
+                          />
+                          <div class="main-page-card-slider-user-details">
+                            <p class="main-page-card-slider-title">
+                              Forest Path
+                            </p>
+                            <p class="main-page-card-slider-author">
+                              by Isabella Wang
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Card 12 -->
+                    <div class="main-page-card-slider-card">
+                      <img
+                        src="/assets/images/hivica-card4.svg"
+                        alt="Card image"
+                        class="main-page-card-slider-image"
+                      />
+                      <div class="main-page-card-slider-content">
+                        <div class="main-page-card-slider-user-card">
+                          <img
+                            src="/assets/images/User Thumb.svg"
+                            alt="User"
+                            class="main-page-card-slider-user-thumb"
+                          />
+                          <div class="main-page-card-slider-user-details">
+                            <p class="main-page-card-slider-title">
+                              Winter Scene
+                            </p>
+                            <p class="main-page-card-slider-author">
+                              by Michael Snow
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="main-page-card-slider-row">
+                    <!-- Card 9 -->
+                    <div class="main-page-card-slider-card">
+                      <img
+                        src="/assets/images/hivica-card1.svg"
+                        alt="Card image"
+                        class="main-page-card-slider-image"
+                      />
+                      <div class="main-page-card-slider-content">
+                        <div class="main-page-card-slider-user-card">
+                          <img
+                            src="/assets/images/User Thumb (1).svg"
+                            alt="User"
+                            class="main-page-card-slider-user-thumb"
+                          />
+                          <div class="main-page-card-slider-user-details">
+                            <p class="main-page-card-slider-title">
+                              Ocean View
+                            </p>
+                            <p class="main-page-card-slider-author">
+                              by Sophia Davies
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Card 10 -->
+                    <div class="main-page-card-slider-card">
+                      <img
+                        src="/assets/images/hivica-card2.svg"
+                        alt="Card image"
+                        class="main-page-card-slider-image"
+                      />
+                      <div class="main-page-card-slider-content">
+                        <div class="main-page-card-slider-user-card">
+                          <img
+                            src="/assets/images/User Thumb (2).svg"
+                            alt="User"
+                            class="main-page-card-slider-user-thumb"
+                          />
+                          <div class="main-page-card-slider-user-details">
+                            <p class="main-page-card-slider-title">
+                              Desert Sunset
+                            </p>
+                            <p class="main-page-card-slider-author">
+                              by Alex Rodriguez
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Card 11 -->
+                    <div class="main-page-card-slider-card position-relative">
+                      <span
+                        class="main-page-card-slider-badge main-page-card-slider-badge-gray"
+                        >Promoted</span
+                      >
+                      <img
+                        src="/assets/images/hivica-card3.svg"
+                        alt="Card image"
+                        class="main-page-card-slider-image"
+                      />
+                      <div class="main-page-card-slider-content">
+                        <div class="main-page-card-slider-user-card">
+                          <img
+                            src="/assets/images/User Thumb (3).svg"
+                            alt="User"
+                            class="main-page-card-slider-user-thumb"
+                          />
+                          <div class="main-page-card-slider-user-details">
+                            <p class="main-page-card-slider-title">
+                              Forest Path
+                            </p>
+                            <p class="main-page-card-slider-author">
+                              by Isabella Wang
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Card 12 -->
+                    <div class="main-page-card-slider-card">
+                      <img
+                        src="/assets/images/hivica-card4.svg"
+                        alt="Card image"
+                        class="main-page-card-slider-image"
+                      />
+                      <div class="main-page-card-slider-content">
+                        <div class="main-page-card-slider-user-card">
+                          <img
+                            src="/assets/images/User Thumb.svg"
+                            alt="User"
+                            class="main-page-card-slider-user-thumb"
+                          />
+                          <div class="main-page-card-slider-user-details">
+                            <p class="main-page-card-slider-title">
+                              Winter Scene
+                            </p>
+                            <p class="main-page-card-slider-author">
+                              by Michael Snow
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Mobile Carousel (1 card per slide, visible on xs to sm) -->
+            <div
+              id="testimonialCarouselMobile"
+              class="carousel slide d-block d-md-none"
+              data-bs-ride="carousel"
+              data-bs-interval="5000"
+            >
+              <div class="carousel-inner">
+                <!-- Card 1 -->
+                <div class="carousel-item active">
+                  <div
+                    class="main-page-card-slider-card position-relative mx-auto"
+                  >
+                    <span
+                      class="main-page-card-slider-badge main-page-card-slider-badge-gray"
+                      >Promoted</span
+                    >
+                    <img
+                      src="/assets/images/hivica-card1.svg"
+                      alt="Card image"
+                      class="main-page-card-slider-image"
+                    />
+                    <div class="main-page-card-slider-content">
+                      <div class="main-page-card-slider-user-card">
+                        <img
+                          src="/assets/images/User Thumb (1).svg"
+                          alt="User"
+                          class="main-page-card-slider-user-thumb"
+                        />
+                        <div class="main-page-card-slider-user-details">
+                          <p class="main-page-card-slider-title">
+                            Flower Decorations
+                          </p>
+                          <p class="main-page-card-slider-author">
+                            by Melvina Spring
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="carousel-item">
+                  <div
+                    class="main-page-card-slider-card position-relative mx-auto"
+                  >
+                    <span
+                      class="main-page-card-slider-badge main-page-card-slider-badge-purple"
+                      >Featured</span
+                    >
+                    <img
+                      src="/assets/images/hivica-card2.svg"
+                      alt="Card image"
+                      class="main-page-card-slider-image"
+                    />
+                    <div class="main-page-card-slider-content">
+                      <div class="main-page-card-slider-user-card">
+                        <img
+                          src="/assets/images/User Thumb (2).svg"
+                          alt="User"
+                          class="main-page-card-slider-user-thumb"
+                        />
+                        <div class="main-page-card-slider-user-details">
+                          <p class="main-page-card-slider-title">
+                            Flower Decorations
+                          </p>
+                          <p class="main-page-card-slider-author">
+                            by Melvina Spring
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="carousel-item">
+                  <div class="main-page-card-slider-card mx-auto">
+                    <img
+                      src="/assets/images/hivica-card3.svg"
+                      alt="Card image"
+                      class="main-page-card-slider-image"
+                    />
+                    <div class="main-page-card-slider-content">
+                      <div class="main-page-card-slider-user-card">
+                        <img
+                          src="/assets/images/User Thumb (3).svg"
+                          alt="User"
+                          class="main-page-card-slider-user-thumb"
+                        />
+                        <div class="main-page-card-slider-user-details">
+                          <p class="main-page-card-slider-title">Splash</p>
+                          <p class="main-page-card-slider-author">
+                            by Rwanda Melflor
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="carousel-item">
+                  <div class="main-page-card-slider-card mx-auto">
+                    <img
+                      src="/assets/images/hivica-card4.svg"
+                      alt="Card image"
+                      class="main-page-card-slider-image"
+                    />
+                    <div class="main-page-card-slider-content">
+                      <div class="main-page-card-slider-user-card">
+                        <img
+                          src="/assets/images/User Thumb.svg"
+                          alt="User"
+                          class="main-page-card-slider-user-thumb"
+                        />
+                        <div class="main-page-card-slider-user-details">
+                          <p class="main-page-card-slider-title">
+                            Colorful Face
+                          </p>
+                          <p class="main-page-card-slider-author">
+                            by Melvina Spring
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Add the rest of cards here for mobile -->
+                <!-- Card 5 -->
+                <div class="carousel-item">
+                  <div class="main-page-card-slider-card mx-auto">
+                    <img
+                      src="/assets/images/hivica-card1.svg"
+                      alt="Card image"
+                      class="main-page-card-slider-image"
+                    />
+                    <div class="main-page-card-slider-content">
+                      <div class="main-page-card-slider-user-card">
+                        <img
+                          src="/assets/images/User Thumb (1).svg"
+                          alt="User"
+                          class="main-page-card-slider-user-thumb"
+                        />
+                        <div class="main-page-card-slider-user-details">
+                          <p class="main-page-card-slider-title">
+                            Fence Spying
+                          </p>
+                          <p class="main-page-card-slider-author">
+                            by Melvina Spring
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Continue with cards 6-16... -->
+              </div>
+
+              <!-- Mobile Carousel Controls -->
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#testimonialCarouselMobile"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#testimonialCarouselMobile"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+
+            <!-- Completing from previous code snippet -->
+            <div class="main-page-card-slider-indicators">
+              <button
+                type="button"
+                class="main-page-card-slider-indicator active"
+                data-bs-target="#testimonialCarouselDesktop"
+                data-bs-slide-to="0"
+                aria-current="true"
+              ></button>
+              <button
+                type="button"
+                class="main-page-card-slider-indicator"
+                data-bs-target="#testimonialCarouselDesktop"
+                data-bs-slide-to="1"
+              ></button>
+              <button
+                type="button"
+                class="main-page-card-slider-indicator"
+                data-bs-target="#testimonialCarouselDesktop"
+                data-bs-slide-to="2"
+              ></button>
+              <button
+                type="button"
+                class="main-page-card-slider-indicator"
+                data-bs-target="#testimonialCarouselDesktop"
+                data-bs-slide-to="3"
+              ></button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="hivica-integration-section py-5">
+        <div class="container">
+          <div class="row justify-content-center text-center">
+            <div class="col-lg-10">
+              <div class="havica-industries-tag effect-fade-delay">
+                Integrations
+              </div>
+              <h2 class="havica-industries-heading effect-slide-up">
+                Lorem ipsum dolor sit amet,consectetuer <br />
+                adipiscing elit.
+              </h2>
+            </div>
+          </div>
+
+          <div class="row justify-content-center text-center">
+            <div class="col-12">
+              <!-- First row of logos -->
+              <div class="row justify-content-center align-items-center mb-4">
+                <div class="col-6 col-md-4 col-lg">
+                  <div class="hivica-integration-logo effect-zoom-logo">
+                    <a href="#">
+                      <img
+                        src="/assets/images/Logo-colored (1).svg"
+                        alt="Astrom Logo"
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg">
+                  <div class="hivica-integration-logo effect-zoom-logo">
+                    <a href="#">
+                      <img
+                        src="/assets/images/Logo-colored (2).svg"
+                        alt="Cicio Logo"
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg">
+                  <div class="hivica-integration-logo effect-zoom-logo">
+                    <a href="#">
+                      <img
+                        src="/assets/images/Logo-colored (3).svg"
+                        alt="Weavy Logo"
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg">
+                  <div class="hivica-integration-logo effect-zoom-logo">
+                    <a href="#">
+                      <img
+                        src="/assets/images/Logo-colored (4).svg"
+                        alt="vRokets Logo"
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg">
+                  <div class="hivica-integration-logo effect-zoom-logo">
+                    <a href="#">
+                      <img
+                        src="/assets/images/Logo-colored (5).svg"
+                        alt="Viewio Logo"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Second row of logos -->
+              <div class="row justify-content-center align-items-center">
+                <div class="col-6 col-md-2 col-lg">
+                  <div class="hivica-integration-logo effect-zoom-logo">
+                    <a href="#">
+                      <img
+                        src="/assets/images/Logo-colored (6).svg"
+                        alt="Metablu Logo"
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div class="col-6 col-md-2 col-lg">
+                  <div class="hivica-integration-logo effect-zoom-logo">
+                    <a href="#">
+                      <img
+                        src="/assets/images/Logo-colored (7).svg"
+                        alt="Buildaa Logo"
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div class="col-6 col-md-2 col-lg">
+                  <div class="hivica-integration-logo effect-zoom-logo">
+                    <a href="#">
+                      <img
+                        src="/assets/images/Logo-colored (8).svg"
+                        alt="Hapi Logo"
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div class="col-6 col-md-2 col-lg">
+                  <div class="hivica-integration-logo effect-zoom-logo">
+                    <a href="#">
+                      <img
+                        src="/assets/images/Logo-colored.svg"
+                        alt="LogoIpsum Logo"
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div class="col-6 col-md-2 col-lg">
+                  <div class="hivica-integration-logo effect-zoom-logo">
+                    <a href="#">
+                      <img
+                        src="/assets/images/Logo-colored (9).svg"
+                        alt="Virtuo Logo"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="hivica-video-main-hero-section position-relative">
+        <img
+          src="/assets/images/video-elipses.svg"
+          class="ellipse-background ellipse-bottom-left ellipse-lg"
+          alt=""
+        />
+        <div class="container">
+          <div class="row justify-content-center text-center">
+            <div class="col-lg-10">
+              <div class="havica-industries-tag effect-fade-delay">Video</div>
+              <h2 class="havica-industries-heading effect-slide-up">
+                Lorem ipsum dolor sit amet,consectetuer <br />
+                adipiscing elit.
+              </h2>
+            </div>
+          </div>
+
+          <!-- Decorative Elements -->
+          <div class="hivica-video-main-decorative-elements">
+            <i
+              class="fas fa-star hivica-video-main-star-icon"
+              style="top: 100px; left: 300px; font-size: 16px"
+            ></i>
+            <i
+              class="fas fa-star hivica-video-main-star-icon"
+              style="top: 2400px; right: 55%; font-size: 14px"
+            ></i>
+            <i
+              class="fas fa-circle hivica-video-main-circle-icon"
+              style="top: 300px; right: 60%; font-size: 6px"
+            ></i>
+            <i
+              class="fas fa-circle hivica-video-main-circle-icon"
+              style="top: 200px; left: 250px; font-size: 8px"
+            ></i>
+            <i
+              class="fas fa-plus hivica-video-main-plus-icon"
+              style="bottom: 80px; right: 100px; font-size: 10px"
+            ></i>
+            <i
+              class="fas fa-plus hivica-video-main-plus-icon"
+              style="top: 140px; left: 100px; font-size: 12px"
+            ></i>
+          </div>
+          <div class="row">
+            <div class="col-12 col-lg-6">
+              <!-- Content Column -->
+              <div class="hivica-video-main-content-column effect-fade-left">
+                <!-- Header group with heading and underline image -->
+                <div class="hivica-video-main-header-group">
+                  <h2 class="hivica-video-main-section-heading">Heading</h2>
+                  <img
+                    src="/assets/images/underline-header.svg"
+                    alt="Underline decoration"
+                    class="hivica-video-main-underline-image"
+                  />
+                </div>
+
+                <ul
+                  class="hivica-video-main-feature-list list-unstyled animate-stagger-children"
+                >
+                  <li class="hivica-video-main-feature-item">
+                    <i class="fas fa-check hivica-video-main-feature-icon"></i>
+                    <p class="hivica-video-main-feature-text">
+                      Est et in pharetra magna adipiscing ornare aliquam.
+                    </p>
+                  </li>
+                  <li class="hivica-video-main-feature-item">
+                    <i class="fas fa-check hivica-video-main-feature-icon"></i>
+                    <p class="hivica-video-main-feature-text">
+                      Tellus arcu sed consequat ac velit ut eu blandit.
+                    </p>
+                  </li>
+                  <li class="hivica-video-main-feature-item">
+                    <i class="fas fa-check hivica-video-main-feature-icon"></i>
+                    <p class="hivica-video-main-feature-text">
+                      Ullamcorper ornare in et egestas dolor orci.
+                    </p>
+                  </li>
+                </ul>
+
+                <a href="#" class="hivica-video-main-cta-link">
+                  Find more about the app
+                  <i class="fas fa-arrow-right hivica-video-main-cta-icon"></i>
+                </a>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6" style="position: relative">
+              <!-- Orange Blob -->
+              <div class="hivica-video-main-blob-container effect-zoom-logo">
+                <div class="hivica-video-main-blob"></div>
+              </div>
+
+              <!-- Preview Section -->
+              <div class="hivica-video-main-preview-section effect-fade-up">
+                <div class="hivica-video-main-preview-container">
+                  <div class="hivica-video-main-browser-header">
+                    <div class="hivica-video-main-browser-dots">
+                      <div
+                        class="hivica-video-main-browser-dot hivica-video-main-red-dot"
+                      ></div>
+                      <div
+                        class="hivica-video-main-browser-dot hivica-video-main-yellow-dot"
+                      ></div>
+                      <div
+                        class="hivica-video-main-browser-dot hivica-video-main-green-dot"
+                      ></div>
+                    </div>
+                  </div>
+
+                  <div class="hivica-video-main-video-wrapper">
+                    <video class="hivica-video-main-video" muted>
+                      <source src="/assets/videos/hero1.mp4" type="video/mp4" />
+                      Your browser does not support the video tag.
+                    </video>
+                    <div class="hivica-video-main-play-button-overlay">
+                      <i class="fas fa-play hivica-video-main-play-icon"></i>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Cards Row Positioned at Bottom -->
+                <div class="hivica-video-main-card-row effect-fade-delay">
+                  <!-- Featured Card -->
+                  <div class="hivica-video-main-feature-card">
+                    <div
+                      class="hivica-video-main-card-badge hivica-video-main-badge-featured"
+                    >
+                      Featured
+                    </div>
+                    <div class="hivica-video-main-card-content">
+                      <h3 class="hivica-video-main-card-title">Heading</h3>
+                      <p class="hivica-video-main-card-text">
+                        Molestie integer eu arcu, mauris bibendum rhoncus
+                        imperdiet dui.
+                      </p>
+                    </div>
+                    <a href="#" class="hivica-video-main-learn-more-btn"
+                      >Learn More</a
+                    >
+                  </div>
+
+                  <!-- Popular Card -->
+                  <div class="hivica-video-main-feature-card">
+                    <div
+                      class="hivica-video-main-card-badge hivica-video-main-badge-popular"
+                    >
+                      Popular
+                    </div>
+                    <div class="hivica-video-main-card-content">
+                      <h3 class="hivica-video-main-card-title">Heading</h3>
+                      <p class="hivica-video-main-card-text">
+                        Molestie integer eu arcu, mauris bibendum rhoncus
+                        imperdiet dui.
+                      </p>
+                    </div>
+                    <a href="#" class="hivica-video-main-learn-more-btn"
+                      >Learn More</a
+                    >
+                  </div>
+
+                  <!-- New Card -->
+                  <div class="hivica-video-main-feature-card">
+                    <div
+                      class="hivica-video-main-card-badge hivica-video-main-badge-new"
+                    >
+                      New
+                    </div>
+                    <div class="hivica-video-main-card-content">
+                      <h3 class="hivica-video-main-card-title">Heading</h3>
+                      <p class="hivica-video-main-card-text">
+                        Molestie integer eu arcu, mauris bibendum rhoncus
+                        imperdiet dui.
+                      </p>
+                    </div>
+                    <a href="#" class="hivica-video-main-learn-more-btn"
+                      >Learn More</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="havica-industries-section">
+        <div class="container">
+          <div class="row justify-content-center text-center">
+            <div class="col-lg-10">
+              <div class="havica-industries-tag effect-fade-delay">
+                Industries
+              </div>
+              <h2 class="havica-industries-heading effect-slide-up">
+                Lorem ipsum dolor sit amet,consectetuer <br />
+                adipiscing elit.
+              </h2>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-12">
+              <div class="havica-industries-carousel-container">
+                <div class="havica-industries-carousel-inner">
+                  <div class="havica-industries-card">
+                    <img
+                      src="/assets/images/havion-icon1.svg"
+                      alt="Fintech"
+                      class="havica-industries-icon"
+                    />
+                    <h3 class="havica-industries-title">Fintech</h3>
+                  </div>
+                  <div class="havica-industries-card">
+                    <img
+                      src="/assets/images/havion-icon2.svg"
+                      alt="Government & Defense"
+                      class="havica-industries-icon"
+                    />
+                    <h3 class="havica-industries-title">
+                      Government & Defense
+                    </h3>
+                  </div>
+                  <div class="havica-industries-card">
+                    <img
+                      src="/assets/images/havion-icon3.svg"
+                      alt="Manufacturing"
+                      class="havica-industries-icon"
+                    />
+                    <h3 class="havica-industries-title">Manufacturing</h3>
+                  </div>
+                  <div class="havica-industries-card">
+                    <img
+                      src="/assets/images/havion-icon1.svg"
+                      alt="Healthcare"
+                      class="havica-industries-icon"
+                    />
+                    <h3 class="havica-industries-title">Healthcare</h3>
+                  </div>
+                  <div class="havica-industries-card">
+                    <img
+                      src="/assets/images/havion-icon2.svg"
+                      alt="Retail"
+                      class="havica-industries-icon"
+                    />
+                    <h3 class="havica-industries-title">Retail</h3>
+                  </div>
+                  <div class="havica-industries-card">
+                    <img
+                      src="/assets/images/havion-icon3.svg"
+                      alt="Education"
+                      class="havica-industries-icon"
+                    />
+                    <h3 class="havica-industries-title">Education</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="havica-faqs-section effect-fade-up">
+        <div class="container position-relative">
+          <img
+            src="/assets/images/bg-havica.svg"
+            alt="Background Decoration"
+            class="havica-faqs-bg"
+          />
+
+          <!-- Top left image -->
+          <img
+            src="/assets/images/top-right.svg"
+            alt="Decorative Element"
+            class="top-left-image"
+          />
+
+          <div class="havica-faqs-header text-center mb-5 effect-fade-delay">
+            <div class="havica-faqs-tag">
+              <span>Get answers to questions</span>
+            </div>
+            <h2 class="havica-faqs-title">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+            </h2>
+          </div>
+
+          <div class="row havica-faqs-tabs effect-fade-up">
+            <div class="col-lg-8">
+              <div class="havica-faqs-tab-container">
+                <div class="row">
+                  <div class="col-md-6 mb-4">
+                    <div
+                      class="havica-faqs-tab active effect-slide-left"
+                      data-tab="getting-started"
+                    >
+                      <div class="d-flex align-items-center">
+                        <img
+                          src="/assets/images/SVG.svg"
+                          alt="Icon"
+                          class="havica-faqs-tab-icon"
+                        />
+                        <span class="havica-faqs-tab-title"
+                          >Getting Started</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-4">
+                    <div
+                      class="havica-faqs-tab effect-slide-right"
+                      data-tab="features-support"
+                    >
+                      <div class="d-flex align-items-center">
+                        <img
+                          src="/assets/images/SVG (1).svg"
+                          alt="Icon"
+                          class="havica-faqs-tab-icon"
+                        />
+                        <span class="havica-faqs-tab-title"
+                          >Features and Support</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-4">
+                    <div
+                      class="havica-faqs-tab effect-slide-left"
+                      data-tab="security-privacy"
+                    >
+                      <div class="d-flex align-items-center">
+                        <img
+                          src="/assets/images/SVG (2).svg"
+                          alt="Icon"
+                          class="havica-faqs-tab-icon"
+                        />
+                        <span class="havica-faqs-tab-title"
+                          >Security and Privacy</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-4">
+                    <div
+                      class="havica-faqs-tab effect-slide-right"
+                      data-tab="oteka-assistance"
+                    >
+                      <div class="d-flex align-items-center">
+                        <img
+                          src="/assets/images/SVG (3).svg"
+                          alt="Icon"
+                          class="havica-faqs-tab-icon"
+                        />
+                        <span class="havica-faqs-tab-title"
+                          >Oteka Assistance</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="havica-faqs-panel effect-fade-up"
+                id="getting-started-panel"
+              >
+                <h3 class="havica-faqs-panel-title">Getting Started:</h3>
+
+                <div class="havica-faqs-accordion">
+                  <div class="havica-faqs-accordion-item">
+                    <button
+                      class="havica-faqs-accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq1"
+                      aria-expanded="false"
+                      aria-controls="faq1"
+                    >
+                      What is Otake and how can it benefit my startup?
+                      <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div id="faq1" class="havica-faqs-accordion-content">
+                      <div class="havica-faqs-accordion-body">
+                        Otake is a comprehensive platform designed specifically
+                        for startups that provides tools for business planning,
+                        market analysis, and resource management. It benefits
+                        your startup by streamlining operations, providing
+                        valuable insights, and helping you make data-driven
+                        decisions to accelerate growth.
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="havica-faqs-accordion-item">
+                    <button
+                      class="havica-faqs-accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq2"
+                      aria-expanded="false"
+                      aria-controls="faq2"
+                    >
+                      Is Otake suitable for all types of startups, regardless of
+                      industry size?
+                      <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div id="faq2" class="havica-faqs-accordion-content">
+                      <div class="havica-faqs-accordion-body">
+                        Yes, Otake is designed to be versatile and adaptable to
+                        startups across various industries and sizes. Our
+                        platform offers customizable features that can be
+                        tailored to meet the specific needs of your business,
+                        whether you're a small tech startup or a growing retail
+                        business.
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="havica-faqs-accordion-item">
+                    <button
+                      class="havica-faqs-accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq3"
+                      aria-expanded="false"
+                      aria-controls="faq3"
+                    >
+                      How do I begin using Otake to develop my startup business
+                      effectively?
+                      <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div id="faq3" class="havica-faqs-accordion-content">
+                      <div class="havica-faqs-accordion-body">
+                        Getting started with Otake is simple. First, create an
+                        account on our platform, then complete the initial setup
+                        process where you'll provide basic information about
+                        your startup. Our onboarding wizard will guide you
+                        through selecting the appropriate tools and features for
+                        your specific needs. Additionally, we offer
+                        comprehensive tutorials and dedicated support to ensure
+                        you maximize the potential of our platform.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="havica-faqs-panel d-none" id="features-support-panel">
+                <h3 class="havica-faqs-panel-title">Features and Support:</h3>
+                <!-- Similar accordion structure for Features and Support -->
+              </div>
+
+              <div class="havica-faqs-panel d-none" id="security-privacy-panel">
+                <h3 class="havica-faqs-panel-title">Security and Privacy:</h3>
+                <!-- Similar accordion structure for Security and Privacy -->
+              </div>
+
+              <div class="havica-faqs-panel d-none" id="oteka-assistance-panel">
+                <h3 class="havica-faqs-panel-title">Oteka Assistance:</h3>
+                <!-- Similar accordion structure for Oteka Assistance -->
+              </div>
+            </div>
+          </div>
+
+          <!-- Bottom right image -->
+          <img
+            src="/assets/images/left-bottom.svg"
+            alt="Decorative Element"
+            class="bottom-right-image"
+          />
+        </div>
+      </section>
+
+      <section
+        class="havica-contact-us-footer position-relative effect-fade-up"
+      >
+        <!-- Background Ellipse -->
+        <img
+          src="/assets/images/Ellipse 12 (1).svg"
+          class="ellipse-background ellipse-top-right ellipse-lg"
+          alt=""
+        />
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-12 col-lg-10">
+              <div class="havica-contact-us-tabpanel">
+                <!-- Pricing Banner Section -->
+                <div
+                  class="havica-contact-us-background mb-4 effect-fade-delay"
+                >
+                  <div class="row">
+                    <div class="col-md-7">
+                      <div class="row">
+                        <div class="col-md-5 mb-4 mb-md-0">
+                          <h3 class="havica-contact-us-plan-title">
+                            Yearly Plan
+                          </h3>
+                          <div class="d-flex align-items-center mt-2">
+                            <span class="havica-contact-us-price-currency"
+                              >$</span
+                            >
+                            <span class="havica-contact-us-price">18/mo</span>
+                          </div>
+                          <p class="havica-contact-us-price-desc mt-2">
+                            Power-up your business.
+                          </p>
+                        </div>
+                        <div class="col-md-7">
+                          <p class="havica-contact-us-desc">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit.<br />
+                            Vivamus non enim lacus. Nullam congue blandit quam.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="col-md-5 d-flex justify-content-md-end justify-content-start align-items-center mt-3 mt-md-0"
+                    >
+                      <div class="havica-contact-us-discount-badge">
+                        <span class="havica-contact-us-discount-text"
+                          >Discount</span
+                        >
+                        <span class="havica-contact-us-discount-separator"
+                          >~</span
+                        >
+                        <span class="havica-contact-us-discount-price"
+                          >$18</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Features and Form Section -->
+                <div class="row">
+                  <!-- Features Column -->
+                  <div class="col-lg-6 mb-4 mb-lg-0 effect-slide-left">
+                    <div class="px-3">
+                      <ul class="list-unstyled animate-stagger-children">
+                        <li class="d-flex align-items-center mb-4">
+                          <i
+                            class="fas fa-check havica-contact-us-icon-active"
+                          ></i>
+                          <span class="havica-contact-us-feature-text">
+                            Lorem ipsum dolor sit amet
+                          </span>
+                        </li>
+                        <li class="d-flex align-items-center mb-4">
+                          <i
+                            class="fas fa-check havica-contact-us-icon-active"
+                          ></i>
+                          <span class="havica-contact-us-feature-text">
+                            Lorem ipsum dolor sit amet
+                          </span>
+                        </li>
+                        <li class="d-flex align-items-center mb-4">
+                          <i
+                            class="fas fa-check havica-contact-us-icon-active"
+                          ></i>
+                          <span class="havica-contact-us-feature-text">
+                            Lorem ipsum dolor sit amet
+                          </span>
+                        </li>
+                        <li class="d-flex align-items-center mb-4">
+                          <i
+                            class="fas fa-times havica-contact-us-icon-inactive"
+                          ></i>
+                          <span class="havica-contact-us-feature-text">
+                            Lorem ipsum dolor sit amet
+                          </span>
+                        </li>
+                        <li class="d-flex align-items-center mb-4">
+                          <i
+                            class="fas fa-times havica-contact-us-icon-inactive"
+                          ></i>
+                          <span class="havica-contact-us-feature-text">
+                            Lorem ipsum dolor sit amet
+                          </span>
+                        </li>
+                      </ul>
+
+                      <div class="havica-contact-us-divider"></div>
+
+                      <!-- Logo Section -->
+                      <div class="mt-4 mb-4">
+                        <div class="havica-logo-container">
+                          <a href="home.html" class="havica-logo-link">
+                            <img
+                              src="/assets/images/website-logo.svg"
+                              alt="Company Logo"
+                              class="havica-contact-us-logo-img"
+                            />
+                          </a>
+                        </div>
+                        <p class="havica-contact-us-logo-desc">
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit.<br />
+                          Vivamus non enim lacus. Nullam congue blandit quam.
+                        </p>
+                      </div>
+
+                      <!-- Profile Section -->
+                      <div class="d-flex align-items-center mt-4">
+                        <div class="me-3">
+                          <img
+                            src="/assets/images/contact-us-logo-man.svg"
+                            alt="John Smith"
+                            class="rounded-circle border"
+                            width="48"
+                            height="48"
+                          />
+                        </div>
+                        <div>
+                          <h4 class="havica-contact-us-person-name mb-0">
+                            John Smith
+                          </h4>
+                          <p class="mb-0">
+                            <span class="havica-contact-us-person-role"
+                              >Designer</span
+                            >
+                            <span class="havica-contact-us-handle">@dokey</span>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Form Column -->
+                  <div class="col-lg-6 effect-slide-right">
+                    <div class="havica-contact-us-form">
+                      <div class="d-flex align-items-center mb-4">
+                        <img
+                          src="/assets/images/top-right.svg"
+                          alt="Icon"
+                          class="me-3"
+                        />
+                        <div>
+                          <h3 class="havica-contact-us-form-heading mb-0">
+                            Heading
+                          </h3>
+                          <p class="havica-contact-us-form-subheading mb-0">
+                            Lorem ipsum dolor sit amet,
+                          </p>
+                        </div>
+                      </div>
+
+                      <form>
+                        <div class="mb-3">
+                          <label
+                            for="fullName"
+                            class="havica-contact-us-label mb-1"
+                            >Full Name</label
+                          >
+                          <input
+                            type="text"
+                            class="form-control havica-contact-us-input"
+                            id="fullName"
+                            placeholder="John Doe"
+                          />
+                        </div>
+
+                        <div class="mb-3">
+                          <label
+                            for="email"
+                            class="havica-contact-us-label mb-1"
+                            >Email</label
+                          >
+                          <input
+                            type="email"
+                            class="form-control havica-contact-us-input"
+                            id="email"
+                            placeholder="business@mail.com"
+                          />
+                        </div>
+
+                        <div class="mb-3">
+                          <label
+                            for="company"
+                            class="havica-contact-us-label mb-1"
+                            >Company Name</label
+                          >
+                          <input
+                            type="text"
+                            class="form-control havica-contact-us-input"
+                            id="company"
+                            placeholder="Company Name"
+                          />
+                        </div>
+
+                        <div class="mb-4">
+                          <label
+                            for="phone"
+                            class="havica-contact-us-label mb-1"
+                            >Contact Number</label
+                          >
+                          <input
+                            type="tel"
+                            class="form-control havica-contact-us-input"
+                            id="phone"
+                            placeholder="+1 234 567 89 00"
+                          />
+                        </div>
+
+                        <button type="submit" class="btn havica-contact-us-btn">
+                          View All Detail
+                          <i class="fas fa-chevron-right ms-2"></i>
+                        </button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="havica-footer effect-fade-up">
+        <div class="container">
+          <!-- Services Section -->
+          <div class="row text-center mb-md-5">
+            <div class="col-md-4 havica-footer-service effect-slide-left">
+              <img
+                src="/assets/images/top-right.svg"
+                alt="Service Icon"
+                class="havica-footer-service-icon"
+              />
+              <h3 class="havica-footer-heading mb-3">Heading</h3>
+              <p class="havica-footer-text">
+                Lorem ipsum dolor sit amet, consectetur<br />adipiscing elit.
+                Vivamus non enim lacus.
+              </p>
+            </div>
+            <div class="col-md-4 havica-footer-service effect-fade-delay">
+              <img
+                src="/assets/images/footer-center.svg"
+                alt="Service Icon"
+                class="havica-footer-service-icon"
+              />
+              <h3 class="havica-footer-heading mb-3">Heading</h3>
+              <p class="havica-footer-text">
+                Lorem ipsum dolor sit amet, consectetur<br />adipiscing elit.
+                Vivamus non enim lacus.
+              </p>
+            </div>
+            <div class="col-md-4 havica-footer-service effect-slide-right">
+              <img
+                src="/assets/images/left-bottom.svg"
+                alt="Service Icon"
+                class="havica-footer-service-icon"
+              />
+              <h3 class="havica-footer-heading mb-3">Heading</h3>
+              <p class="havica-footer-text">
+                Lorem ipsum dolor sit amet, consectetur<br />adipiscing elit.
+                Vivamus non enim lacus.
+              </p>
+            </div>
+          </div>
+
+          <!-- Divider -->
+          <div
+            class="d-flex align-items-center justify-content-center effect-fade-up"
+          >
+            <div class="havica-footer-divider flex-grow-1"></div>
+            <div class="havica-footer-divider-dot"></div>
+            <div class="havica-footer-divider flex-grow-1"></div>
+          </div>
+
+          <!-- Newsletter Section -->
+          <div class="row align-items-center my-5">
+            <div class="col-lg-6 effect-slide-left">
+              <h3 class="havica-footer-heading mb-2">
+                Subscribe to our newsletter for updates:
+              </h3>
+              <p class="havica-footer-text" style="font-size: 14px">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+            </div>
+            <div class="col-lg-6 effect-slide-right">
+              <p class="havica-footer-subtitle mb-2">
+                30 Day Free Trial No Credit Card Required:
+              </p>
+              <form class="havica-footer-form">
+                <input
+                  type="email"
+                  class="havica-footer-input"
+                  placeholder="Enter your email"
+                  required
+                />
+                <button type="submit" class="havica-footer-button">Send</button>
+              </form>
+            </div>
+          </div>
+
+          <!-- Divider -->
+          <div
+            class="d-flex align-items-center justify-content-center effect-fade-up"
+          >
+            <div class="havica-footer-divider flex-grow-1"></div>
+            <div class="havica-footer-divider-dot"></div>
+            <div class="havica-footer-divider flex-grow-1"></div>
+          </div>
+
+          <!-- Footer Links -->
+          <div class="row mt-5 for-mobile-setting">
+            <div class="col-lg-3 col-6 mb-4 mb-lg-0 effect-fade-up">
+              <a href="#" class="mb-4 d-inline-block">
+                <img
+                  src="/assets/images/website-logo.svg"
+                  alt="Logo"
+                  class="img-fluid"
+                />
+              </a>
+              <div class="mb-3">
+                <a href="#" class="havica-footer-social-icon"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+                <a href="#" class="havica-footer-social-icon"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+                <a href="#" class="havica-footer-social-icon"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+                <a href="#" class="havica-footer-social-icon"
+                  ><i class="fab fa-youtube"></i
+                ></a>
+              </div>
+              <p class="havica-footer-text">
+                Lorem ipsum dolor sit amet, consectetur<br />adipiscing elit.
+                Etiam vehicula.
+              </p>
+            </div>
+
+            <div class="col-lg-3 col-6 mb-lg-0 effect-fade-delay">
+              <h4 class="havica-footer-subtitle mb-3">Pages</h4>
+              <ul class="list-unstyled animate-stagger-children">
+                <li><a href="#" class="havica-footer-link">Home</a></li>
+                <li><a href="#" class="havica-footer-link">About</a></li>
+                <li><a href="#" class="havica-footer-link">Pricing</a></li>
+                <li><a href="#" class="havica-footer-link">Contact</a></li>
+              </ul>
+            </div>
+
+            <div class="col-lg-3 col-6 mb-lg-0 effect-fade-delay">
+              <h4 class="havica-footer-subtitle mb-3">Solutions</h4>
+              <ul class="list-unstyled animate-stagger-children">
+                <li>
+                  <a href="#" class="havica-footer-link">Startup Support</a>
+                </li>
+                <li>
+                  <a href="#" class="havica-footer-link"
+                    >Growth AI <span class="havica-footer-badge">New</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="havica-footer-link">Business Support</a>
+                </li>
+                <li><a href="#" class="havica-footer-link">Shipping</a></li>
+              </ul>
+            </div>
+
+            <div class="col-lg-3 col-6 effect-fade-delay">
+              <h4 class="havica-footer-subtitle mb-3">Resources</h4>
+              <ul class="list-unstyled animate-stagger-children">
+                <li><a href="#" class="havica-footer-link">Blog</a></li>
+                <li><a href="#" class="havica-footer-link">Community</a></li>
+                <li><a href="#" class="havica-footer-link">Tutorials</a></li>
+                <li>
+                  <a href="#" class="havica-footer-link"
+                    >Monitoring <span class="havica-footer-badge">New</span></a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
